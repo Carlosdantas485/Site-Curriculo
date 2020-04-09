@@ -1,0 +1,234 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">);
+
+.home-container{
+    font-family: 'Merienda', cursive;
+    background: url(https://www.flaticon.com/free-icon/manager_641695?term=job&page=1&position=16);  
+    background-position: center;
+    padding:20px 100px;    
+}
+
+.head{
+    background: blueviolet;
+    border-radius: 20px 20px 0 0;    
+    display: flex;
+    justify-content: space-around;  
+}
+
+.logo{
+    padding: 5px;
+    width: 65px;
+    transition: 0.3s; 
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.links{
+    padding: 15px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    transition: 0.3s; 
+    text-shadow: 3px 3px black;
+
+}
+
+.links:hover{
+    transform: scale(1.2);
+}
+
+
+
+.form{
+    height: 100%;
+    background: rgb(212, 212, 212);
+    padding: 0 40px;
+    box-shadow: 5px 5px 90px 2px black;
+    border: 10px double blueviolet;
+    display: flex;
+
+}
+
+.foto-carlos{
+    width: 300px;
+    height: 400px;
+    margin:0 10%;
+    margin-top: 20px;
+    border-radius: 50px 0 50px 0;
+    border:10px double blueviolet;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+.mensagem{
+    padding: 10px;
+    
+}
+.mensagem h1, h2{
+    text-align: center;
+}
+
+.mensagem h1{
+    font-size: 30px;
+}
+
+.mensagem h2{
+    font-size: 30px;
+}
+
+.mensagem ul{
+    margin-top: 10px;
+}
+
+.formulario{
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa-login{
+    box-shadow: 1px 1px 10px 1px black;
+    padding: 20px;
+    height: 350px;
+    margin-top: 20px;
+    background: rgb(255, 255, 255);
+    border: 10px double blueviolet;
+    border-radius: 20px 0px 20px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs .input{
+    margin-top: 10px;
+
+    display: flex;
+}
+
+.inputs input{
+    padding: 5px;
+    border: 1.5px solid black;
+    border-radius: 0 5px 5px 0;
+}
+
+.inputs .input p{
+    width: 100%;
+    padding: 5px;
+    border: 1.5px solid black;
+    border-radius: 5px 0 0 5px;
+    background: blueviolet;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.button-entrar button{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    color: blueviolet;
+    background: rgb(136, 136, 136);
+    border: 1.5px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    font-size: 24px;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+    transition: 0.3s; 
+    text-shadow: 1px 1px 1px black;
+}
+
+.button-entrar button:hover{
+    transform: scale(1.05);
+
+}
+
+.cadastrar{
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cadastrar:hover{
+    text-decoration: underline;
+}
+
+.foto-cadeado{
+    width: 20px;
+}
+
+.foto-chave{
+    width: 20px;
+}
+
+footer{
+    color: white;
+    background: blueviolet;
+    border-radius:0px 0px 20px 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.video{
+    margin-top: 31px;
+    width: 450px;
+    height: 300px;
+    box-shadow: 0px 0px 5px black;
+    transition: 0.3s;
+}
+
+.video:hover{
+    transform: scale(1.015);
+}
+
+footer .contatos-rodape {
+    text-decoration: none;
+    color: white;
+}
+
+.contatos-rodape{
+    margin-left: 15%;
+    width: 70%;
+    padding: 10px;
+}
+
+.contatos-icons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.icon-contato{
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    text-shadow: 2px 2px black;
+}
+
+
+.icon-contato h3,a:hover{
+    transform: scale(1.05);
+}
+
+.icon-contatos2{
+    margin-top: 2%;
+    text-shadow: 2px 2px black;
+
+}
+
+footer{
+    color: white;
+    background: blueviolet;
+    border-radius:0px 0px 20px 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.icon-rodape{
+    width: 25%;
+}
