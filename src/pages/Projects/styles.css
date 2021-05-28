@@ -1,0 +1,29 @@
+ul{ 
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+li{
+   
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4{
+    width: 100px;
+    text-align: center;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+}
+
+.see{
+    width: 20px;
+    height: 20px;
+}

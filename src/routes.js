@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from'./pages/Home';
 import Sobre from'./pages/Skills';
-import Contato from './pages/Contato';
+import Contato from './pages/Projects';
 
 export default function Routes(){
     return(
@@ -11,7 +11,7 @@ export default function Routes(){
             <Switch>
                 <Route path="/" exact component={Home}/> 
                 <Route path="/sobre" component={Sobre}/>
-                <Route path="/contato" component={Contato}/>
+                <Route path="/projects" component={Contato}/>
             </Switch>
         </BrowserRouter>
     );
